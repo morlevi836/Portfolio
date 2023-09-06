@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -120,7 +124,6 @@ li, a, button {
 }
 
 .Skills_Title, .Projects_Title, .Contact_Title {
-    color: whitesmoke;
     font-size: 4rem;
     position: relative;
     display: inline;
@@ -150,19 +153,16 @@ li, a, button {
 }
 
 .Skills__SoftSkills__title, .Skills__HardSkills__title {
-    color: whitesmoke;
     font-size: 2rem;
     align-self: center;
 }
 
 .Skills__SoftSkills__skill, .Skills__HardSkills__skill {
-    color: whitesmoke;
     padding: 10px 10px;
     border-bottom: 3px solid #b30f0f;
 }
 
 .Skills__SoftSkills__LestSkill, .Skills__HardSkills__LestSkill {
-    color: whitesmoke;
     padding: 10px 10px;
 }
 
@@ -183,7 +183,6 @@ li, a, button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: whitesmoke;
 }
 
 .Projects__IgClone_Title, .Projects__IsraelFlag_Title, .Projects__MondrianProject_Title, .Projects__ToBeContinue {
@@ -225,7 +224,6 @@ li, a, button {
 }
 
 .Contact_line {
-    color: whitesmoke;
     font-size: 3rem;
 }
 
@@ -268,7 +266,6 @@ li, a, button {
 
 h6 {
     text-align: center;
-    color: whitesmoke;
     font-size: 1rem;
 }
 
