@@ -273,7 +273,6 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
-
     li, a, button {
         font-size: 15px;
     }
