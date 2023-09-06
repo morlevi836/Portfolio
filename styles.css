@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-color:#1C2B41;
+}
+
+li, a, button {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color:#152133;
+}
+
+.Header__img {
+    width: 70px;
+}
+
+.Header__nav__links {
+    list-style: none;
+}
+
+.Header__nav__links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.Header__nav__links li a {
+    transition: 0.3s ease-in all;
+}
+
+.Header__nav__links li a:hover {
+    color: rgb(103, 141, 199);
+}
+
+.Header__button {
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in all;
+}
+
+.Header__button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.HomePage {
+    display: grid;
+    grid-template-rows: 200px 100px 100px 150px;
+    grid-template-columns: 600px 400px ;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.HomePage__Hello {
+    font-size: 90px;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.HomePage__Welcome {
+    font-size: 50px;
+    width: 650px;
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.HomePage__img {
+    width: 350px;
+    grid-area: 1 / 2 / -1 / -1;
+    padding: 0px 100px;
+}
+
+.About {
+    padding-top: 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.About__MyName {
+    font-size: 30px;
+}
+
+.About__img1 {
+    width: 200px;
+    border-radius: 360px;
+}
+
+.About__Mor {
+    font-size: 50px;
+}
+
+.About__text {
+    width: 550px;
+    color: #adb5bd;
+}
+
+.About__img2 {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.Skills, .Projects  {
+    padding-top: 50px;
+    height: 700px;
+}
+
+.Skills_Title, .Projects_Title, .Contact_Title {
+    color: whitesmoke;
+    font-size: 4rem;
+    position: relative;
+    display: inline;
+    left: 5rem;
+}
+
+.Skills__flex {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1000px;    
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.Skills__SoftSkills, .Skills__HardSkills {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border: 3px solid #678dc7;
+    padding-top: 10px;
+    background-color: #152133;
+}
+
+.Skills__SoftSkills__title, .Skills__HardSkills__title {
+    color: whitesmoke;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.Skills__SoftSkills__skill, .Skills__HardSkills__skill {
+    color: whitesmoke;
+    padding: 10px 10px;
+    border-bottom: 3px solid #b30f0f;
+}
+
+.Skills__SoftSkills__LestSkill, .Skills__HardSkills__LestSkill {
+    color: whitesmoke;
+    padding: 10px 10px;
+}
+
+.Projects__grid {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.grid-box {
+    border: 3px solid #678dc7;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.Projects__IgClone_Title, .Projects__IsraelFlag_Title, .Projects__MondrianProject_Title, .Projects__ToBeContinue {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.Projects__IgClone_Description, .Projects__IsraelFlag_Description, .Projects__MondrianProject_Description {
+    margin-top: 20px;
+    color: #adb5bd;
+}
+
+.Projects__IgClone__Button, .Projects__IsraelFlag__Button, .Projects__MondrianProject__Button {
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in all;
+}
+
+.Projects__IgClone__Button:hover, .Projects__IsraelFlag__Button:hover, .Projects__MondrianProject__Button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+.Contact  {
+    padding-top: 50px;
+    height: 590px;
+}
+
+.Contact__flex {
+    padding-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Contact_line {
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.Contact__Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact__Input {
+    height: 200px;
+    width: 500px;
+    background-color: rgba(77, 79, 92, 0.446);
+    color: #adb5bd;
+    border: 3px solid #678dc7;
+}
+
+.Contact__Input__Button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in all;
+}
+
+.Contact__Input__Button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+.Contact__Links__Linkedin, .Contact__Links__Github, .Contact__Links__Email {
+    width: 60px;
+    padding: 0px 10px;
+}
+
+.Footer {
+    padding: 30px;
+}
+
+h6 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    li, a, button {
+        font-size: 15px;
+    }
+
+    .Header {
+        flex-direction: column;
+        padding: 20px 100px;
+        height: 250px;
+    }
+
+    .Header__nav__links {
+        text-align: center;
+    }
+
+    .Header__nav__links li {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .HomePage {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        gap: 25px;
+    }
+
+    .HomePage__Hello {
+        font-size: 50px;
+        grid-area: 1 / 1 / 2 / 2;
+        text-align: center;
+    }
+
+    .HomePage__Welcome {
+        font-size: 30px;
+        width: 300px;
+        grid-area: 2 / 1 / 3 / 2;
+        text-align: center;
+    }
+
+    .HomePage__img {
+        width: 200px;
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .About {
+        height: 700px;
+    }
+
+    .About__text {
+        width: 400px;
+        text-align: center;
+    }
+
+    .About__img2 {
+        width: 340px;
+    }
+
+    .Skills_Title, .Projects_Title {
+        font-size: 3rem;
+        position: relative;
+        display: inline; 
+    }
+
+    .Skills__flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 500px;
+        width: 400px;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Projects {
+        padding-top: 50px;
+        height: 1500px;
+    }
+
+    .Projects__grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    .Contact__flex {
+        padding-top: 50px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Contact_line {
+        font-size: 2rem;
+    }
+
+    .Contact__Input {
+        width: 400px;
+    }
+}

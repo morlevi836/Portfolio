@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Website</title>
+</head>
+<body>
+    <div class="Header">
+        <img class="Header__img" src="./assets/tag-img.png" alt="tag-img">
+        <nav class="Header__nav">
+            <ul class="Header__nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </nav>
+        <a href="#Contact"><button class="Header__button">Contact</button></a>
+    </div>
+
+    <section class="HomePage" id="Home">
+        <h1 class="HomePage__Hello">Hello</h1>
+        <h2 class="HomePage__Welcome">Welcome To My Website</h2>
+        <img class="HomePage__img" src="./assets/programming.png" alt="programming">
+    </section>
+
+    <section class="About" id="About">
+        <h2 class="About__MyName">My name is</h2>
+        <img class="About__img1" src="./assets/my-img.jpeg" alt="mor">
+        <h2 class="About__Mor">Mor Levi</h2>
+        <p class="About__text">
+            I am 21 years old, have a bachelor's degree in computer science and I serve in the IDF.
+            I am a web developer, proficient in several languages including: HTML, CSS, JS, Java, etc.    
+            I like to read books and learn new things all the time.   
+        </p>
+        <img class="About__img2" src="./assets/Open-Book.png" alt="Book">
+    </section>
+
+    <section class="Skills" id="Skills">
+        <h2 class="Skills_Title">My Skills</h2>
+        <div class="Skills__flex">
+            <div class="Skills__SoftSkills">
+                <h2 class="Skills__SoftSkills__title">Soft Skills</h2>
+                <h3 class="Skills__SoftSkills__skill">Problem Solving</h3>
+                <h3 class="Skills__SoftSkills__skill">Team Player</h3>
+                <h3 class="Skills__SoftSkills__skill">Creativity</h3>
+                <h3 class="Skills__SoftSkills__skill">Fast Learner</h3>
+                <h3 class="Skills__SoftSkills__LestSkill">Self Starter</h3>
+            </div>
+            <div class="Skills__HardSkills">
+                <h2 class="Skills__HardSkills__title">Hard Skills</h2>
+                <h3 class="Skills__HardSkills__skill">HTML</h3>
+                <h3 class="Skills__HardSkills__skill">CSS</h3>
+                <h3 class="Skills__HardSkills__skill">JS</h3>
+                <h3 class="Skills__HardSkills__skill">Java</h3>
+                <h3 class="Skills__HardSkills__LestSkill">SQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+        <h2 class="Projects_Title">My Projects</h2>
+        <div class="Projects__grid">
+            <div class="grid-box Projects__IgClone">
+                <h3 class="Projects__IgClone_Title">IG clone</h3>
+                <h4 class="Projects__IgClone_Description">Website using HTML and CSS</h4>
+                <a href="https://morlevi836.github.io/ig_clone/"><button class="Projects__IgClone__Button">Check Me Out</button></a>
+            </div>
+            <div class="grid-box Projects__IsraelFlag">
+                <h3 class="Projects__IsraelFlag_Title">Israel Flag</h3>
+                <h4 class="Projects__IsraelFlag_Description">Flag of Israel  using HTML and CSS</h4>
+                <a href="https://morlevi836.github.io/israel-flag/"><button class="Projects__IsraelFlag__Button">Check Me Out</button></a>
+            </div>
+            <div class="grid-box Projects__MondrianProject">
+                <h3 class="Projects__MondrianProject_Title">Mondrian Project</h3>
+                <h4 class="Projects__MondrianProject_Description">Painting using CSS-Grid</h4>
+                <a href="https://morlevi836.github.io/Mondrian-Project/"><button class="Projects__MondrianProject__Button">Check Me Out</button></a>
+            </div>
+            <div class="grid-box Projects__ToBeContinue">To Be Continue...</div>
+            <div class="grid-box Projects__ToBeContinue">To Be Continue...</div>
+            <div class="grid-box Projects__ToBeContinue">To Be Continue...</div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h2 class="Contact_Title">Contact </h2>
+        <div class="Contact__flex">
+            <h3 class="Contact_line">Get In Touch</h3>
+            <form class="Contact__Form">
+                <input class="Contact__Input" type="text" value="Tell me what you think...">
+                <button class="Contact__Input__Button">Submit</button>
+            </form> 
+            <div Contact__Links>
+                <a href="https://www.linkedin.com/in/mor-levi-73a364247/"><img class="Contact__Links__Linkedin" src="./assets/linkedin-icon-logo-png-transparent.webp" alt="linkedin"></a>
+                <a href="https://github.com/morlevi836"><img class="Contact__Links__Github" src="./assets/github-img.png" alt="github"></a>
+                <a href="mailto:morlevimail@gmail.com"><img class="Contact__Links__Email" src="./assets/email-icon-png-transparent.png" alt="email"></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="Footer">
+        <h6>© MorLevi</h6>
+    </div>
+</body>
+</html> 
