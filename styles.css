@@ -314,27 +314,26 @@ h6 {
     }
 
     .HomePage__img {
-        width: 200px;
+        width: 180px;
         grid-area: 3 / 1 / 4 / 2;
     }
 
     .About {
-        height: 700px;
+        height: 720px;
     }
 
     .About__text {
-        width: 400px;
+        width: 300px;
         text-align: center;
     }
 
     .About__img2 {
-        width: 340px;
+        width: 300px;
     }
 
-    .Skills_Title, .Projects_Title {
+    .Skills_Title {
         font-size: 3rem;
-        position: relative;
-        display: inline; 
+        left: 70px; 
     }
 
     .Skills__flex {
@@ -342,15 +341,23 @@ h6 {
         flex-direction: column;
         gap: 20px;
         height: 500px;
-        width: 400px;
+        width: 350px;
         left: 50%;
         top: 45%;
         transform: translate(-50%, -50%);
     }
 
+    .Skills__SoftSkills, .Skills__HardSkills {
+        width: 300px;
+    }
+
     .Projects {
-        padding-top: 50px;
         height: 1500px;
+    }
+
+    .Projects_Title {
+        font-size: 3rem;
+        left: 40px; 
     }
 
     .Projects__grid {
@@ -360,6 +367,17 @@ h6 {
         align-items: center;
         padding-top: 50px;
         gap: 20px;
+        text-align: center;
+    }
+
+    .grid-box {
+        width: 300px;
+        height: 230px;
+    }
+
+    .Contact_Title {
+        font-size: 3rem;
+        left: 85px; 
     }
 
     .Contact__flex {
@@ -376,6 +394,6 @@ h6 {
     }
 
     .Contact__Input {
-        width: 400px;
+        width: 300px;
     }
 }
