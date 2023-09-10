@@ -111,6 +111,7 @@ li, a, button {
 .About__text {
     width: 550px;
     color: #adb5bd;
+    text-align: justify;
 }
 
 .About__img2 {
