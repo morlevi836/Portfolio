@@ -234,7 +234,7 @@ li, a, button {
     resize: none;
 }
 
-.Contact__Input__Button {
+.Contact__Button {
     margin-top: 10px;
     padding: 10px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -244,7 +244,7 @@ li, a, button {
     transition: 0.3s ease-in all;
 }
 
-.Contact__Input__Button:hover {
+.Contact__Button:hover {
     background-color: rgba(0, 136, 169, 0.5);
 }
 
