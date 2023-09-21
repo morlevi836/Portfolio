@@ -158,6 +158,7 @@ li, a, button {
 .Skills__Title {
     font-size: 2rem;
     align-self: center;
+    margin-top: 10px;
 }
 
 .Skills__skill {
